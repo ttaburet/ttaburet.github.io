@@ -18,7 +18,7 @@ Awarded the title of Doctor of the Central School of Lille following the defence
 </ul>
 
 <br>
-[Manuscript](https://www.google.com)& [Slides](https://www.google.com).
+[Manuscript](https://www.google.com) & [Slides](https://www.google.com).
 
 ***
 
