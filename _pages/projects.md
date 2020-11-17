@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: (Under-construction) A very non-exhaustive collection of my projects.
+description: Under-construction - A very non-exhaustive collection of my projects.
 nav: true
 ---
 
