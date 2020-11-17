@@ -16,14 +16,14 @@ This schema uses the principle of cover source switching: starting from a cover 
 At the sensor level, this change in sensitivity can be modelled by adding an independent photonic noise according to a Normal distribution. 
 The problem of this method lies here in the modeling of this signal in the DCT domain. Starting from a RAW image, the processing steps considered are demosaicking (bi-linear), luminance averaging and quantification related to JPEG compression. They are modeled using a covariance matrix. 
 The simplicity of this development scheme justifies the interest of this scheme which offers superior embedding rates compared to the state of the art ($>$1 bit per non-zero coefficient) while preserving high practical security ($PE \simeq 40\%$).},
-	author = {Taburet, Th{\'e}o and Bas, Patrick and Sawaya, Wadih and Fridrich, Jessica},
-	booktitle = {GRESTI'19},
+	author = {T.Taburet and P.Bas and W.Sawaya and J.Fridrich},
+	booktitle = {GRESTI},
 	date-added = {2020-11-17 01:32:26 +0100},
 	date-modified = {2020-11-17 02:15:56 +0100},
 	read = {0},
 	title = {St{\'e}ganographie naturelle pour images JPEG},
 	abbr={GRESTI},
-	year = {2020}}
+	year = {2019}}
 
 @article{taburet2020natural,
 	abstract = {In order to achieve high practical security, Natural Steganography (NS) uses cover images captured at ISO sensitivity $ISO1$ and generates stego images mimicking ISO sensitivity
@@ -37,7 +37,7 @@ It employs 4 sub-lattices and 64 lattices per sub-lattices. The modification pro
 from a multivariate Gaussian distribution using the Cholesky decomposition of the covariance matrix. This derivation is also used to compute the embedding capacity of each image. Using a
 specific database called E1Base, we show that in the JPEG domain NS (J-Cov-NS) enables to achieve high capacity (more than 2 bits per non-zero AC DCT) and with high practical security
 ($P_E \simeq 40\%$ using DCTR and $P_E \simeq 32\%$ using SRNet) from $QF 75$ to $QF 100$).},
-	author = {Taburet, Th{\'e}o and Bas, Patrick and Sawaya, Wadih and Fridrich, Jessica},
+	author = {T.Taburet and P.Bas and W.Sawaya and J.Fridrich},
 	date-added = {2020-11-17 01:26:54 +0100},
 	date-modified = {2020-11-17 02:12:40 +0100},
 	journal = {IEEE Transactions on Information Forensics and Security},
@@ -46,6 +46,7 @@ specific database called E1Base, we show that in the JPEG domain NS (J-Cov-NS) e
 	title = {Natural steganography in JPEG domain with a linear development pipeline},
 	volume = {16},
 	abbr={TIFS},
+	selected = {true},
 	year = {2020}}
 
 @inproceedings{taburet2019natural,
@@ -55,7 +56,7 @@ We first show that color sensors generate strong intra-block and inter-block dep
 in the development process. 
 Capturing theses dependencies using an empirical covariance matrix, we propose a pseudoembedding algorithm on greyscale JPEG images which uses up to four sub-lattices and 64 lattices to embed information while preserving the estimated correlations among DCT coefficients. We then compute an approximation of the average embedding rate w.r.t. the JPEG quality factor and evaluate the empirical security of the proposed scheme for
 linear and non-linear demosaicking schemes. Our experiments show that we can achieve high capacity (around 2 bit per nzAC) with a high empirical security ($P_E \simeq 30\%$ using DCTR at $QF 95$).},
-	author = {Taburet, Th{\'e}o and Bas, Patrick and Sawaya, Wadih and Fridrich, Jessica},
+	author = {T.Taburet and P.Bas and W.Sawaya and J.Fridrich},
 	date-added = {2020-11-17 01:25:27 +0100},
 	date-modified = {2020-11-17 02:15:16 +0100},
 	journal = {Electronic Imaging},
@@ -74,7 +75,7 @@ After focusing on the 4:4:4 sampling strategy, we propose to modify for each cha
 We also compare our spreading payload strategy w.r.t. two strategies: (i) the concatenation of the cost map (CONC) or (ii) equal embedding rates (EER) among channels. We then select good candidates within the feature sets designed either for JPEG or color steganography. 
 
 Our conclusions are threefold: (i) the GFR or DCTR features sets, concatenated on the three channels offer better performance than ColorSRMQ1 for JPEG Quality Factor (QF) of 75 and 95 but ColorSRMQ1 is more sensitive for QF=100, (ii) the CONC or EER strategies are suboptimal, and (iii) depending of the quality factors and the embedding schemes, the empirical security is maximized when between 33% (QF=100, UERD) and 95% (QF=75, J-UNIWARD) of the payload is allocated to the luminance channel.},
-	author = {Taburet, Th{\'e}o and Filstroff, Louis and Bas, Patrick and Sawaya, Wadih},
+	author = {T.Taburet and P.Bas and L.Filstroff and W.Sawaya},
 	booktitle = {International Workshop on Digital Watermarking},
 	date-added = {2020-11-17 01:24:57 +0100},
 	date-modified = {2020-11-17 01:58:08 +0100},
@@ -96,7 +97,7 @@ Secondly we derive conditional Gaussian distributions from a multivariate distri
 This covariance matrix takes into account both the correlations exhibited by the analysis of the covariance matrix and the variance derived from the costs. 
 This synchronization scheme enables to obtain a gain of $P_E$ of at least $7%$ at $QF95$ for an embedding rate close to 0.3 bnzac coefficient using DCTR feature sets for both UERD and JUniward.},
 	address = {New York, NY, USA},
-	author = {Taburet, Th\'{e}o and Bas, Patrick and Sawaya, Wadih and Cogranne, R\'{e}mi},
+	author = {T.Taburet and P.Bas and W.Sawaya and R.Cogranne},
 	booktitle = {Proceedings of the 2020 ACM Workshop on Information Hiding and Multimedia Security},
 	date-added = {2020-11-17 01:21:14 +0100},
 	date-modified = {2020-11-17 02:13:23 +0100},
@@ -111,13 +112,14 @@ This synchronization scheme enables to obtain a gain of $P_E$ of at least $7%$ a
 	title = {JPEG Steganography and Synchronization of DCT Coefficients for a Given Development Pipeline},
 	url = {https://doi.org/10.1145/3369412.3395074},
 	abbr={IH\&MMSec},
+	selected = {true},
 	year = {2020},
 	Bdsk-Url-1 = {https://doi.org/10.1145/3369412.3395074}}
 
 @inproceedings{10.1145/3335203.3335715,
 	abstract = {This short paper is an extension of a family of embedding schemes called Natural Steganography, which embeds a message by mimicking heteroscedastic sensor noise in the JPEG domain. Under the assumption that the development from RAW uses linear de- mosaicking, we derive a closed-form for the covariance matrix of DCT coefficients from $3 \times 3$ JPEG blocks. This computation relies on a matrix formulation of all steps involved in the development pipeline, which includes demosaicking, conversion to luminance, DCT transform, and reordering. This matrix is then used for pseudo-embedding in the JPEG domain on four lattices of $8 \times 8$ DCT blocks. The results obtained with the computed covariance matrix are contrasted with the results previously obtained with the covariance matrix estimated using Monte Carlo sampling and scaling. The empirical security using DCTR features at JPEG quality 100 increased from $P_E = 14\%$ using covariance estimation and scaling to $P_E = 43\%$ using the newly derived analytic form.},
 	address = {New York, NY, USA},
-	author = {Taburet, Th\'{e}o and Bas, Patrick and Fridrich, Jessica and Sawaya, Wadih},
+	author = {T.Taburet and P.Bas and J.Fridrich and W.Sawaya},
 	booktitle = {Proceedings of the ACM Workshop on Information Hiding and Multimedia Security},
 	date-added = {2020-11-17 01:19:59 +0100},
 	date-modified = {2020-11-17 02:14:15 +0100},
@@ -132,5 +134,6 @@ This synchronization scheme enables to obtain a gain of $P_E$ of at least $7%$ a
 	title = {Computing Dependencies between DCT Coefficients for Natural Steganography in JPEG Domain},
 	url = {https://doi.org/10.1145/3335203.3335715},
 	abbr={IH\&MMSec},
+	selected = {true},
 	year = {2019},
 	Bdsk-Url-1 = {https://doi.org/10.1145/3335203.3335715}}

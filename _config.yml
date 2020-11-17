@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Théo
-middle_name: R.
+middle_name: # R.
 last_name: TABURET
 email: theo.taburet@gmail.Com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -61,7 +61,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 
 blog_name: Théo TABURET  # your blog must have a name for it to show up in the nav bar
-blog_description: Théo TABURET Portfolio's
+blog_description: Portfolio
 permalink: /blog/:year/:title/
 
 # Pagination
