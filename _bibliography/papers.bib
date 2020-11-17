@@ -1,70 +1,92 @@
----
----
+%% This BibTeX bibliography file was created using BibDesk.
+%% https://bibdesk.sourceforge.io/
+
+%% Created for Théo TABURET at 2020-11-17 01:33:15 +0100 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
-}
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
+@inproceedings{taburet2020steganographie,
+	Author = {Taburet, Th{\'e}o and Bas, Patrick and Sawaya, Wadih and Fridrich, Jessica},
+	Booktitle = {GRESTI'19},
+	Date-Added = {2020-11-17 01:32:26 +0100},
+	Date-Modified = {2020-11-17 01:32:26 +0100},
+	Title = {St{\'e}ganographie naturelle pour images JPEG},
+	Year = {2020}}
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
-}
+@article{taburet2020natural,
+	Author = {Taburet, Th{\'e}o and Bas, Patrick and Sawaya, Wadih and Fridrich, Jessica},
+	Date-Added = {2020-11-17 01:26:54 +0100},
+	Date-Modified = {2020-11-17 01:26:54 +0100},
+	Journal = {IEEE Transactions on Information Forensics and Security},
+	Pages = {173--186},
+	Publisher = {IEEE},
+	Title = {Natural steganography in JPEG domain with a linear development pipeline},
+	Volume = {16},
+	Year = {2020}}
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
+@inproceedings{taburet2019natural,
+	Author = {Taburet, Th{\'e}o and Bas, Patrick and Sawaya, Wadih and Fridrich, Jessica},
+	Date-Added = {2020-11-17 01:25:27 +0100},
+	Date-Modified = {2020-11-17 01:33:10 +0100},
+	Journal = {Electronic Imaging},
+	Number = {5},
+	Pages = {542--1},
+	Publisher = {Society for Imaging Science and Technology},
+	Title = {A natural steganography embedding scheme dedicated to color sensors in the jpeg domain},
+	Volume = {2019},
+	Year = {2019}}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
+@inproceedings{taburet2018empirical,
+	Author = {Taburet, Th{\'e}o and Filstroff, Louis and Bas, Patrick and Sawaya, Wadih},
+	Booktitle = {International Workshop on Digital Watermarking},
+	Date-Added = {2020-11-17 01:24:57 +0100},
+	Date-Modified = {2020-11-17 01:24:57 +0100},
+	Organization = {Springer},
+	Pages = {290--303},
+	Title = {An empirical study of steganography and steganalysis of color images in the JPEG domain},
+	Year = {2018}}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
+@inproceedings{10.1145/3369412.3395074,
+	Abstract = {This paper proposes to use the statistical analysis of the correlation between DCT coefficients to design a new synchronization strategy that can be used for cost-based steganographic schemes in the JPEG domain. First, an analysis is performed on the covariance matrix of DCT coefficients of neighboring blocks after a development pipeline similar to the one used to generate BossBase, and applied on a photonic noise. This analysis exhibits (i) a decomposition into 8 disjoint sets of uncorrelated coefficients (4 sets per block used by 2 disjoint lattices) and (ii) the fact that each DCT coefficient is correlated with 38 other coefficients belonging either to the same block or to connected blocks. Using the uncorrelated groups, an embedding scheme can be designed using only 8 disjoint lattices. The proposed embedding scheme relies on ingredients. Firstly, we convert the empirical costs associated to one each coefficient into a Gaussian distribution whose variance is directly computed from the embedding costs. Secondly we derive conditional Gaussian distributions from a multivariate distribution considering only the correlated coefficients which have been already modified by the embedding scheme. This covariance matrix takes into account both the correlations exhibited by the analysis of the covariance matrix and the variance derived from the costs. This synchronization scheme enables to obtain a gain of $P_E$ of at least $7%$ at $QF95$ for an embedding rate close to 0.3 bnzac coefficient using DCTR feature sets for both UERD and JUniward.},
+	Address = {New York, NY, USA},
+	Author = {Taburet, Th\'{e}o and Bas, Patrick and Sawaya, Wadih and Cogranne, R\'{e}mi},
+	Booktitle = {Proceedings of the 2020 ACM Workshop on Information Hiding and Multimedia Security},
+	Date-Added = {2020-11-17 01:21:14 +0100},
+	Date-Modified = {2020-11-17 01:21:14 +0100},
+	Doi = {10.1145/3369412.3395074},
+	Isbn = {9781450370509},
+	Keywords = {image processing pipeline, JPEG domain, covariance, digital image steganography, sensor noise},
+	Location = {Denver, CO, USA},
+	Numpages = {11},
+	Pages = {139--149},
+	Publisher = {Association for Computing Machinery},
+	Series = {IH&amp;MMSec '20},
+	Title = {JPEG Steganography and Synchronization of DCT Coefficients for a Given Development Pipeline},
+	Url = {https://doi.org/10.1145/3369412.3395074},
+	Year = {2020},
+	Bdsk-Url-1 = {https://doi.org/10.1145/3369412.3395074}}
+
+@inproceedings{10.1145/3335203.3335715,
+	Abstract = {This short paper is an extension of a family of embedding schemes called Natural Steganography, which embeds a message by mimicking heteroscedastic sensor noise in the JPEG domain. Under the assumption that the development from RAW uses linear de- mosaicking, we derive a closed-form for the covariance matrix of DCT coefficients from 3 \texttimes{} 3 JPEG blocks. This computation relies on a matrix formulation of all steps involved in the development pipeline, which includes demosaicking, conversion to luminance, DCT transform, and reordering. This matrix is then used for pseudo-embedding in the JPEG domain on four lattices of 8 \texttimes{} 8 DCT blocks. The results obtained with the computed covariance matrix are contrasted with the results previously obtained with the covariance matrix estimated using Monte Carlo sampling and scaling. The empirical security using DCTR features at JPEG quality 100 increased from PE = 14% using covariance estimation and scaling to PE = 43% using the newly derived analytic form.},
+	Address = {New York, NY, USA},
+	Author = {Taburet, Th\'{e}o and Bas, Patrick and Fridrich, Jessica and Sawaya, Wadih},
+	Booktitle = {Proceedings of the ACM Workshop on Information Hiding and Multimedia Security},
+	Date-Added = {2020-11-17 01:19:59 +0100},
+	Date-Modified = {2020-11-17 01:19:59 +0100},
+	Doi = {10.1145/3335203.3335715},
+	Isbn = {9781450368216},
+	Keywords = {jpeg domain, digital image steganography, covariance, sensor noise, image processing pipeline},
+	Location = {Paris, France},
+	Numpages = {6},
+	Pages = {57--62},
+	Publisher = {Association for Computing Machinery},
+	Series = {IH&amp;MMSec'19},
+	Title = {Computing Dependencies between DCT Coefficients for Natural Steganography in JPEG Domain},
+	Url = {https://doi.org/10.1145/3335203.3335715},
+	Year = {2019},
+	Bdsk-Url-1 = {https://doi.org/10.1145/3335203.3335715}}
