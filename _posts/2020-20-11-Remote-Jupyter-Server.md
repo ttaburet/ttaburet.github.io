@@ -8,7 +8,6 @@ authors:
   - name: Théo TABURET
     url: "https://en.wikipedia.org/wiki/Albert_Einstein"
 
-<!-- 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
 
