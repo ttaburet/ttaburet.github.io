@@ -1,27 +1,17 @@
 ---
 layout: distill
-title: a distill-style blog post
-description: an example of a distill-style blog post and main elements
-date: 2018-12-22
+title: Steganography - A toy example
+description: 
+date: 2020-11-17
 
 authors:
-  - name: Albert Einstein
+  - name: Théo TABURET
     url: "https://en.wikipedia.org/wiki/Albert_Einstein"
-    affiliations:
-      name: IAS, Princeton
-  - name: Boris Podolsky
-    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
-    affiliations:
-      name: IAS, Princeton
-  - name: Nathan Rosen
-    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
-    affiliations:
-      name: IAS, Princeton
 
-bibliography: 2018-12-22-distill.bib
-
+<!-- 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
+
 _styles: >
   .fake-img {
     background: #bbb;
@@ -39,6 +29,7 @@ _styles: >
   }
 
 ---
+<!-- 
 
 ## Equations
 
@@ -137,3 +128,4 @@ It does not interrupt the normal flow of `.l-body` sized text except on mobile s
 <div class="fake-img l-gutter">
   <p>.l-gutter</p>
 </div>
+-->
