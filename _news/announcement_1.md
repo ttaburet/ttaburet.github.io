@@ -2,12 +2,12 @@
 layout: post
 date: 2020-10-12 14:00:00+010
 title: Awarded the title of Doctor of the Central School of Lille following the defence of my thesis.
-inline: false
+inline: true
 ---
 
 Awarded the title of Doctor of the Central School of Lille following the defence of my thesis.
 
-**Jury** :
+<br>**Jury** :
 <ul>
     <li>Patrick BAS - Director</li>
     <li>Marc CHAUMONT - Examinator</li>
@@ -17,7 +17,7 @@ Awarded the title of Doctor of the Central School of Lille following the defence
     <li>Florent RETRAINT - Rapporteur</li>
 </ul>
 
-**Links** : 
+<br>**Links** : 
 <ul>
     <li>[Manuscript](https://www.google.com)</li>
     <li>[Slides](https://www.google.com)</li>

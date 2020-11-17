@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
+title: publications
 description: Conference & journal articles.
 years: [2020, 2019, 2018]
 nav: true
