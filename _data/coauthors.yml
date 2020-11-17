@@ -1,8 +1,14 @@
-Adams:
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+Bas:
+  url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-Podolsky:
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+Fridrich:
+  url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-Rosen:
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+Sawaya:
+  url: https://en.wikipedia.org/wiki/Nathan_Rosen
+
+Filstroff:
+  url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+
+Cogranne:
+  url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams

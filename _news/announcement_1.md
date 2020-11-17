@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2020-10-12 14:00:00+010
-inline: true
+inline: false
 ---
 
 Awarded the title of Doctor of the Central School of Lille following the defence of my thesis.
