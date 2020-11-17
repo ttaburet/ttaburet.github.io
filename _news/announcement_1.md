@@ -2,7 +2,7 @@
 layout: post
 date: 2020-10-12 14:00:00+010
 title: Awarded the title of Doctor of the Central School of Lille following the defence of my thesis.
-inline: true
+inline: false
 ---
 
 Awarded the title of Doctor of the Central School of Lille following the defence of my thesis.
@@ -19,8 +19,8 @@ Awarded the title of Doctor of the Central School of Lille following the defence
 
 **Links** : 
 <ul>
-    <li>Manuscript</li>
-    <li>Slides</li>
+    <li>[Manuscript](https://www.google.com)</li>
+    <li>[Slides](https://www.google.com)</li>
 </ul>
 
 ***
