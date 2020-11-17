@@ -17,11 +17,8 @@ Awarded the title of Doctor of the Central School of Lille following the defence
     <li>Florent RETRAINT - Rapporteur</li>
 </ul>
 
-<br>**Links** : 
-<ul>
-    <li>[Manuscript](https://www.google.com)</li>
-    <li>[Slides](https://www.google.com)</li>
-</ul>
+<br>
+[Manuscript](https://www.google.com)& [Slides](https://www.google.com).
 
 ***
 
