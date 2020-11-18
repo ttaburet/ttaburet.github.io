@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Hellemmes, 59260, France</p>
+    <p>Hellemmes-Lille, 59260</p>
     <p>France</p>
 
 news: true  # includes a list of news items
